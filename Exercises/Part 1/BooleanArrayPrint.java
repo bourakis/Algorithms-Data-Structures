@@ -5,7 +5,7 @@ public class BooleanArrayPrint
 	{
 		boolean[][] array = {{true, false, true},
 				     {false, true, false}};
-		printArray(array);
+		printArray(array); 
 	}
 
 	private static void printArray(boolean[][] array) 
