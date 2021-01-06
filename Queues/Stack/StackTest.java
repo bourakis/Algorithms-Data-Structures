@@ -47,7 +47,7 @@ class StackTest
 
 	public static void main (String[] args) 
 	{ 
-		StackTest<Integer> stack = new StackTest<Integer>(); 
+		Stack<Integer> stack = new Stack<Integer>(); 
 
 		stack_push(stack); 
 		stack_pop(stack); 
