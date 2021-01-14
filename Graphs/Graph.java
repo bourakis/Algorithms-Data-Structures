@@ -10,7 +10,7 @@ public class Graph
         this.vertex = vertex;
         list = new LinkedList[vertex];
 
-        for (int i = 0; i < vertex ; i++) 
+        for (int i = 0; i < vertex; i++) 
         {
             list[i] = new LinkedList<Integer>();
         }
