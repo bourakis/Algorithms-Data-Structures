@@ -15,8 +15,8 @@ public class Exercise5
         l_list.add("White");
         l_list.add("Pink");
         
-        System.out.println("Original linked list: ");
-        System.out.println("Let add the Yellow color after the Red Color: " + l_list);
+        System.out.println("Original linked list: " + l_list);
+        System.out.println("Let add the Yellow color after the Red Color: ");
         
         l_list.add(1, "Yellow");
         
