@@ -1,7 +1,7 @@
 // A Java program to demonstrate working of
 // recursion
 
-public class Recursive
+public class RecursiveExample1
 {
     public static void printFun(int test)
     {
