@@ -13,7 +13,7 @@ class BinarySearchTree2 {
     Node root; 
   
    // Constructor for BST =>initial empty tree
-    BST_class(){ 
+    BinarySearchTree2(){ 
         root = null; 
     } 
     //delete a node from BST
@@ -117,7 +117,7 @@ class BinarySearchTree2 {
 class Main{
     public static void main(String[] args)  { 
        //create a BST object
-        BST_class bst = new BST_class(); 
+        BinarySearchTree2 bst = new BinarySearchTree2(); 
         /* BST tree example
               45 
            /     \ 
