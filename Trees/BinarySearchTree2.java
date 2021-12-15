@@ -1,4 +1,4 @@
-class BinarySearchTree { 
+class BinarySearchTree2 { 
     //node class that defines BST node
     class Node { 
         int key; 
