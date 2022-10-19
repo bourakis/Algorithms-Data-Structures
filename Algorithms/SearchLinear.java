@@ -4,9 +4,9 @@ public class SearchLinear
 {
     public static void main(String[] args) 
     {
-		//- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-		// Εύρεση της θέσης ενός αριθμού που ψάχνουμε μέσα σε ένα πίνακα:
-		//- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	//- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+	// Εύρεση της θέσης ενός αριθμού που ψάχνουμε μέσα σε ένα πίνακα:
+	//- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
         int[] array3 = {3, 2, 8, 12, 5, 34, 67};
         int stoxos = 34; // ο αριθμός που θα αναζητήσουμε
         int result = linearSearch(stoxos, array3);
@@ -25,13 +25,13 @@ public class SearchLinear
             }
         }
       
-        if (position==-1)
+        if (position == -1)
         {
             System.out.println("Ο αριθμός δε βρέθηκε!");
         }
         else 
         {
-            System.out.println("Η θεση είναι η: "+(position+1));
+            System.out.println("Η θεση είναι η: " + (position + 1));
         }
       
         return position;
