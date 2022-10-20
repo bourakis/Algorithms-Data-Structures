@@ -7,17 +7,17 @@ public class Exercise12
 	public static void main(String[] args) 
 	{
 		// Creae a list and add some colors to the list
-		List<String> list_Strings = new ArrayList<String>();
+		List<String> myList = new ArrayList<String>();
 
-		list_Strings.add("Red");
-		list_Strings.add("Green");
-		list_Strings.add("Orange");
-		list_Strings.add("White");
-		list_Strings.add("Black");
+		myList.add("Red");
+		myList.add("Green");
+		myList.add("Orange");
+		myList.add("White");
+		myList.add("Black");
 
-		System.out.println("Original list: " + list_Strings);
+		System.out.println("Original list: " + myList);
 
-		List<String> sub_List = list_Strings.subList(0, 3);
+		List<String> sub_List = myList.subList(0, 3);
 		
 		System.out.println("List of first three elements: " + sub_List);
 	}
