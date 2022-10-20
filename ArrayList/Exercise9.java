@@ -13,6 +13,7 @@ public class Exercise9
 		List1.add("4");
 
 		System.out.println("List1: " + List1);
+		
 		List<String> List2 = new ArrayList<String>();
 		List2.add("A");
 		List2.add("B");
@@ -25,6 +26,7 @@ public class Exercise9
 		Collections.copy(List1, List2);
 		
 		System.out.println("Copy List to List2,\nAfter copy:");
+		
 		System.out.println("List1: " + List1);
 		System.out.println("List2: " + List2);
 	}
