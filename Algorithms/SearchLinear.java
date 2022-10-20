@@ -36,8 +36,4 @@ public class SearchLinear
       
         return position;
     }
-    
-    public static int binarySearch(int target, int[] array){
-        
-    }
 }
