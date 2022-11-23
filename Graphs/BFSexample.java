@@ -30,7 +30,7 @@ class GraphBFS
         boolean visited[] = new boolean[Vertices]; 
    
         // BFS queue 
-        LinkedList<Integer> queue = new LinkedList<Integer>(); 
+        LinkedList<Integer> queue = new LinkedList<>(); 
    
         // current node = visited, insert into queue 
         visited[root_node] = true; 
@@ -56,12 +56,12 @@ class GraphBFS
             } 
         } 
     } 
-  }
+}
 
-  class Main
+public class BFSexample
+{ 
+  public static void main(String args[]) 
   { 
-    public static void main(String args[]) 
-    { 
         //create a graph with 5 vertices
         GraphBFS g = new GraphBFS(5); 
         
@@ -76,5 +76,5 @@ class GraphBFS
         System.out.println("Breadth-first traversal of graph with 0 as starting vertex:"); 
         
         g.BFS(0); 
-    } 
+  } 
 }
