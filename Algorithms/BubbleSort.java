@@ -1,7 +1,7 @@
 
 package testbubblesort;
 
-public class BubbleSort 
+public class BubbleSortTest 
 {
 
     public static void main(String[] args) 
