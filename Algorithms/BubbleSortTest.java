@@ -1,6 +1,4 @@
 
-package testbubblesort;
-
 public class BubbleSortTest 
 {
 
